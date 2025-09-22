@@ -1,4 +1,5 @@
 **How It Works**
+
 -Select a difficulty (Easy, Medium, Hard).
 -You’ll be given an editable code snippet and a target snippet.
 -Use keyboard shortcuts and efficient editing to transform the editable code into the target.
