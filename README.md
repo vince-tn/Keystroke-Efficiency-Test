@@ -8,8 +8,8 @@ Use keyboard shortcuts and efficient editing to transform the editable code into
 
 Your keystrokes are counted. Closer to the optimal number = higher score.
 
-  
-  
+
+
 **Contributing**
 
     git clone https://github.com/vince-tn/Keystroke-Efficiency-Test.git
