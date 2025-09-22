@@ -1,12 +1,12 @@
 **How It Works**
 
--Select a difficulty (Easy, Medium, Hard).
+   -Select a difficulty (Easy, Medium, Hard).
 
--You’ll be given an editable code snippet and a target snippet.
+   -You’ll be given an editable code snippet and a target snippet.
 
--Use keyboard shortcuts and efficient editing to transform the editable code into the target.
+   -Use keyboard shortcuts and efficient editing to transform the editable code into the target.
 
--Your keystrokes are counted. Closer to the optimal number = higher score.
+   -Your keystrokes are counted. Closer to the optimal number = higher score.
 
 
 
