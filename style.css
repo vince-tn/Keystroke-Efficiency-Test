@@ -113,7 +113,6 @@ footer {
     padding: 10px 0;
     overflow: hidden;
 }
-
 #instruction {
     margin-top: 3rem;
     margin-bottom: 2rem;
@@ -257,7 +256,7 @@ footer {
         margin: 1rem;
     }
     header h1 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         letter-spacing: 0;
     }
     .textareaContainer {
@@ -272,6 +271,9 @@ footer {
     }
 }
 @media (max-width: 1005px) {
+    body {
+        background-attachment: scroll;
+        background-position: center;
     }
     .container {
         margin-top: 2rem;
@@ -280,8 +282,6 @@ footer {
     header h1 {
         font-size: 2.3rem;
         letter-spacing: 0.5rem;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
     }
     .textareaContainer {
         display: flex;
@@ -293,3 +293,4 @@ footer {
         margin-top: 0.5rem;
         margin-bottom: 1.5rem;
     }
+}
