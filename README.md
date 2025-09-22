@@ -15,7 +15,10 @@ Your keystrokes are counted. Closer to the optimal number = higher score.
     git clone https://github.com/vince-tn/Keystroke-Efficiency-Test.git
     cd Keystroke-Efficiency-Test
     git checkout -b add-new-challenge
-    # edit challenges.json
+
+
+
+
     git add challenges.json
     git commit -m "Added new challenge"
     git push origin add-new-challenge
