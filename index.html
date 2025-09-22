@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test your typing efficiency and shortcut key usage in editing code. See how many keystrokes you need to match the target text.">
+    <title>Keystroke Efficiency Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.45.0/min/vs/loader.js"></script>
+    <script src="script.js" defer></script>
+
+    
+</head>
+
+<header>
+    <h1><b><u>K</u>EYSTROKE EFFICIENCY TEST</b></h1>
+    <nav>
+        <a href="about.html">About</a> |
+        <a href="hints.html">Hints</a>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <div id="openModal" class="modal">
+        <div class="modal-content">
+            <h2>Success!</h2>
+            <p id="countHere"></p>
+        </br>
+            <button id="retryButton">Retry</button>
+            <button id="closeModal">Exit</button>
+        </div>
+        </div>
+
+        <div class="container">
+            <p id="instruction">Replicate the target text on the right.<br>Choose a difficulty then press start to begin the challenge.</p>
+            <div class="textareaContainer">
+                <div id="inputEdit"></div>
+                <div id="inputTarget"></div>
+            </div>
+        <div class="options">
+            <select id="difficultySelect">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        <button id="startButton">Start Challenge</button>
+        </div>
+    </main>
+</body>
+
+<footer>
+    <p><u>                                                                                                        </u></p>
+    <br>
+    <div class="logos">
+        <a href="https://github.com/vince-tn"><img src="images/github.png" alt=""></a>
+        <a href="https://www.paulalcantara.dev/"><img id="mywebsite" src="images/mywebsite.png" alt=""></a>
+        <a href="https://www.reddit.com/user/vince_tn/"><img src="images/reddit.png" alt=""></a>
+    </div>
+    <p>© 2025 Keystroke Efficiency Test</p>
+</footer>
+
+</html>

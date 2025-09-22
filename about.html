@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test your typing efficiency and shortcut key usage in editing code. See how many keystrokes you need to match the target text.">
+    <title>About | Keystroke Efficiency Test</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <h1>About This Website</h1>
+    </header>
+    <main>
+        <h2>What is this?</h2>
+        <p>
+            This is a simple website designed to train keyboard efficiency by editing text/code with the fewest keystrokes possible.  
+            The challenges are stored inside a <code>challenges.json</code> file, which makes it easy to expand and improve over time.
+    </p>
+
+    <h2>How to Contribute</h2>
+    <p>
+        You can help by adding more challenges in <code>challenges.json</code>!  
+        Visit the GitHub repository and submit a pull request:
+    </p>
+    
+    <a id="githubLnk" href="https://github.com/yourusername/yourrepo" target="_blank">Contribute on GitHub ↗</a>
+
+    <h3>Example Challenge Format</h3>
+<pre><code>{
+"difficulty": "medium",
+"instruction": "Fix the indentation",
+"editable": " let a = 1; \n let b = 2; \n  let c = 3; \n  let d = 4; \nconsole.log(a+b+c+d);",
+"target": "let a = 1;\nlet b = 2;\nlet c = 3;\nlet d = 4;\nconsole.log(a+b+c+d);",
+"keystrokes": 6
+}</code></pre>
+    <div class="back">
+        <a href="index.html" class="back-btn">← Back to Home</a>
+    </div>
+    </main>
+</body>
+</html>

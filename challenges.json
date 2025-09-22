@@ -1,0 +1,324 @@
+[
+  {
+    "this is a NOTE": "The keystrokes count inside the json file refers to the minimum number of keystrokes needed to accomplish the task with a 100% score."
+  },
+  
+  {
+    "difficulty": "easy",
+    "instruction": "Duplicate the line",
+    "editable": "console.log('Hello');",
+    "target": "console.log('Hello');\nconsole.log('Hello');",
+    "keystrokes": 3
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Move line down",
+    "editable": "console.log('First');\nconsole.log('Second');",
+    "target": "console.log('Second');\nconsole.log('First');",
+    "keystrokes": 2
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Move line up",
+    "editable": "console.log('First');\nconsole.log('Second');",
+    "target": "console.log('Second');\nconsole.log('First');",
+    "keystrokes": 2
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Comment this line",
+    "editable": "console.log('Comment me');",
+    "target": "// console.log('Comment me');",
+    "keystrokes": 2
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Uncomment this line",
+    "editable": "// console.log('Uncomment me');",
+    "target": "console.log('Uncomment me');",
+    "keystrokes": 2
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Duplicate and indent",
+    "editable": "console.log('Line');",
+    "target": "console.log('Line');\n\tconsole.log('Line');",
+    "keystrokes": 7
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Swap two lines",
+    "editable": "console.log('A');\nconsole.log('B');",
+    "target": "console.log('B');\nconsole.log('A');",
+    "keystrokes": 2
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Select line and duplicate",
+    "editable": "let x = 5;",
+    "target": "let x = 5;\nlet x = 5;",
+    "keystrokes": 3
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Move last line above first",
+    "editable": "console.log('1');\nconsole.log('2');",
+    "target": "console.log('2');\nconsole.log('1');",
+    "keystrokes": 2
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Duplicate multiple lines",
+    "editable": "let a = 1;\nlet b = 2;",
+    "target": "let a = 1;\nlet b = 2;\nlet a = 1;\nlet b = 2;",
+    "keystrokes": 5
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Indent a line",
+    "editable": "console.log('Indented');",
+    "target": "\tconsole.log('Indented');",
+    "keystrokes": 3
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Outdent a line",
+    "editable": "\tconsole.log('Outdent');",
+    "target": "console.log('Outdent');",
+    "keystrokes": 4
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Select and move line down",
+    "editable": "console.log('Line1');\nconsole.log('Line2');",
+    "target": "console.log('Line2');\nconsole.log('Line1');",
+    "keystrokes": 2
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Duplicate line and comment",
+    "editable": "console.log('Line');",
+    "target": "console.log('Line');\n// console.log('Line');",
+    "keystrokes": 7
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Swap lines and indent",
+    "editable": "console.log('A');\nconsole.log('B');",
+    "target": "\tconsole.log('B');\nconsole.log('A');",
+    "keystrokes": 6
+  },
+
+  {
+    "difficulty": "medium",
+    "instruction": "Wrap lines in a block",
+    "editable": "let a = 1;\nlet b = 2;",
+    "target": "{\nlet a = 1;\nlet b = 2;\n}",
+    "keystrokes": 4
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Indent multiple lines",
+    "editable": "console.log('A');\nconsole.log('B');",
+    "target": "\tconsole.log('A');\n\tconsole.log('B');",
+    "keystrokes": 2
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Outdent multiple lines",
+    "editable": "\tconsole.log('A');\n\tconsole.log('B');",
+    "target": "console.log('A');\nconsole.log('B');",
+    "keystrokes": 2
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Duplicate multiple lines",
+    "editable": "let x = 1;\nlet y = 2;\nlet z = 3;",
+    "target": "let x = 1;\nlet y = 2;\nlet z = 3;\nlet x = 1;\nlet y = 2;\nlet z = 3;",
+    "keystrokes": 5
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Swap two code blocks",
+    "editable": "function a() {\n console.log('A');\n}\nfunction b() {\n console.log('B');\n}",
+    "target": "function b() {\n console.log('B');\n}\nfunction a() {\n console.log('A');\n}",
+    "keystrokes": 6
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Duplicate block and indent",
+    "editable": "if (true) {\n console.log('Yes');\n}",
+    "target": "if (true) {\n console.log('Yes');\n}\n\tif (true) {\n console.log('Yes');\n}",
+    "keystrokes": 6
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Comment multiple lines",
+    "editable": "let a = 1;\nlet b = 2;\nlet c = 3;",
+    "target": "// let a = 1;\n// let b = 2;\n// let c = 3;",
+    "keystrokes": 4
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Uncomment multiple lines",
+    "editable": "// let a = 1;\n// let b = 2;\n// let c = 3;",
+    "target": "let a = 1;\nlet b = 2;\nlet c = 3;",
+    "keystrokes": 3
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Move multiple lines down",
+    "editable": "console.log('1');\nconsole.log('2');\nconsole.log('3');",
+    "target": "console.log('2');\nconsole.log('3');\nconsole.log('1');",
+    "keystrokes": 3
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Move multiple lines up",
+    "editable": "console.log('1');\nconsole.log('2');\nconsole.log('3');",
+    "target": "console.log('3');\nconsole.log('1');\nconsole.log('2');",
+    "keystrokes": 3
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Duplicate and comment block",
+    "editable": "function test() {\n console.log('Test');\n}",
+    "target": "function test() {\n console.log('Test');\n}\n// function test() {\n//  console.log('Test');\n// }",
+    "keystrokes": 7
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Select and wrap multiple lines",
+    "editable": "let x = 1;\nlet y = 2;",
+    "target": "try {\n let x = 1;\n let y = 2;\n} catch(e) {}",
+    "keystrokes": 6
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Swap and indent two blocks",
+    "editable": "function a() {\n console.log('A');\n}\nfunction b() {\n console.log('B');\n}",
+    "target": "\tfunction b() {\n console.log('B');\n}\nfunction a() {\n console.log('A');\n}",
+    "keystrokes": 7
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Duplicate and move block",
+    "editable": "if (x > 0) {\n console.log(x);\n}",
+    "target": "if (x > 0) {\n console.log(x);\n}\nif (x > 0) {\n console.log(x);\n}",
+    "keystrokes": 5
+  },
+  {
+    "difficulty": "medium",
+    "instruction": "Comment block and move down",
+    "editable": "let a = 1;\nlet b = 2;",
+    "target": "// let a = 1;\n// let b = 2;\nlet a = 1;\nlet b = 2;",
+    "keystrokes": 6
+  },
+
+  {
+    "difficulty": "hard",
+    "instruction": "Adjust text spacings",
+    "editable": "    let a = 1;\n    let b = 2;\n let c = 3;\n let d = 4;\nconsole.log(a+b+c+d);",
+    "target": " let a = 1;\n let b = 2;\n  let c = 3;\n  let d = 4;\nconsole.log(a+b+c+d);",
+    "keystrokes": 10
+  },
+  {
+    "difficulty": "hard",
+    "instruction": "Swap nested blocks",
+    "editable": "function foo() {\n if(true) {\n  console.log('A');\n }\n}\nfunction bar() {\n if(true) {\n  console.log('B');\n }\n}",
+    "target": "function bar() {\n if(true) {\n  console.log('B');\n }\n}\nfunction foo() {\n if(true) {\n  console.log('A');\n }\n}",
+    "keystrokes": 6
+  },
+  {
+    "difficulty": "hard",
+    "instruction": "Duplicate nested block with indent",
+    "editable": "if(x>0){\n console.log(x);\n}",
+    "target": "if(x>0){\n console.log(x);\n}\n\tif(x>0){\n console.log(x);\n}",
+    "keystrokes": 5
+  },
+  {
+    "difficulty": "hard",
+    "instruction": "Duplicate, comment, etc",
+    "editable": "function a() {\n console.log('A');\n}\nfunction b() {\n console.log('B');\n}",
+    "target": "function a() {\n console.log('A');\n}\nfunction b() {\n console.log('B');\n// }function a() {\n//  console.log('A');\n// }\n// function b() {\n//  console.log('B');\n// }",
+    "keystrokes": 9
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Comment nested block",
+    "editable": "function test() {\n if(true) {\n  console.log('Test');\n }\n}",
+    "target": "// function test() {\n//  if(true) {\n//   console.log('Test');\n//  }\n// }",
+    "keystrokes": 5
+  },
+  {
+    "difficulty": "easy",
+    "instruction": "Uncomment nested block",
+    "editable": "// function test() {\n//  if(true) {\n//   console.log('Test');\n//  }\n// }",
+    "target": "function test() {\n if(true) {\n  console.log('Test');\n }\n}",
+    "keystrokes": 5
+  },
+  {
+    "difficulty": "hard",
+    "instruction": "Swap multi-line blocks with indent",
+    "editable": "if(a>0){\n console.log(a);\n}\nif(b>0){\n console.log(b);\n}",
+    "target": "\tif(b>0){\n console.log(b);\n}\nif(a>0){\n console.log(a);\n}",
+    "keystrokes": 6
+  },
+  {
+    "difficulty": "hard",
+    "instruction": "Duplicate, indent, and move block",
+    "editable": "for(let i=0;i<3;i++){\n console.log(i);\n}",
+    "target": "for(let i=0;i<3;i++){\n console.log(i);\n}\n\tfor(let i=0;i<3;i++){\n console.log(i);\n}",
+    "keystrokes": 5
+  },
+  {
+    "difficulty": "hard",
+    "instruction": "Select multiple lines and wrap in a block",
+    "editable": "let x=1;\nlet y=2;\nlet z=3;",
+    "target": "{\t\t\tlet x=1;\n\t\t\tlet y=2;\n\t\t\tlet z=3;}",
+    "keystrokes": 5
+  },
+  {
+    "difficulty": "hard",
+    "instruction": "Move block above another block",
+    "editable": "function first(){\n console.log('1');\n}\nfunction second(){\n console.log('2');\n}",
+    "target": "function second(){\n console.log('2');\n}\nfunction first(){\n console.log('1');\n}",
+    "keystrokes": 4
+  },
+  {
+    "difficulty": "hard",
+    "instruction": "Duplicate, comment, and indent block",
+    "editable": "if(flag){\n\tdoSomething();\n}",
+    "target": "if(flag){\n\tdoSomething();\n}\n// if(flag){\n// \tdoSomething();\n// }",
+    "keystrokes": 7
+  },
+  {
+    "difficulty": "hard",
+    "instruction": "Swap nested blocks efficiently",
+    "editable": "if(a){\n if(b){\n  console.log('A');\n }\n}\nif(c){\n if(d){\n  console.log('B');\n }\n}",
+    "target": "if(c){\n if(d){\n  console.log('B');\n }\n}\nif(a){\n if(b){\n  console.log('A');\n }\n}",
+    "keystrokes": 8
+  },
+  {
+    "difficulty": "hard",
+    "instruction": "Whatever this is",
+    "editable": "function a(){\n console.log('A');\n}\nfunction b(){\n console.log('B');\n}",
+    "target": "function a(){\n console.log('A');\nf(unction b(){\n console.log('B');\n})\n}",
+    "keystrokes": 4
+  },
+  {
+    "difficulty": "hard",
+    "instruction": "Wrap selected lines",
+    "editable": "let x=10;\nlet y=20;",
+    "target": "([{let x=10;\nlet y=20;}])",
+    "keystrokes": 7
+  },
+  {
+    "difficulty": "hard",
+    "instruction": "Duplicate and move nested block above",
+    "editable": "if(x>0){\n if(y>0){\n  console.log(x+y);\n }\n}",
+    "target": "if(x>0){\n if(y>0){\n  console.log(x+y);\n }\n}\nif(x>0){\n if(y>0){\n  console.log(x+y);\n }\n}",
+    "keystrokes": 3
+  }
+]
+
