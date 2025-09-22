@@ -9,6 +9,7 @@
 -Your keystrokes are counted. Closer to the optimal number = higher score.
 
 
+
 **Contributing**
 1. Fork the repository
    
